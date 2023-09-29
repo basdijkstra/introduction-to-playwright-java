@@ -26,7 +26,6 @@ public class Examples01Test {
 
         assertThat(page).hasTitle("ParaBank | Accounts Overview");
 
-        page.close();
         browser.close();
         playwright.close();
     }
