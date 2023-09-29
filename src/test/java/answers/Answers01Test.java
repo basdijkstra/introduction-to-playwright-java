@@ -36,8 +36,7 @@ public class Answers01Test {
         // Check that the element with text 'Products' is visible
         assertThat(page.getByText("Products")).isVisible();
 
-        // Close the page, the browser and the Playwright session
-        page.close();
+        // Close the browser and the Playwright session
         browser.close();
         playwright.close();
     }

@@ -1,6 +1,7 @@
 package examples;
 
 import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.AriaRole;
@@ -15,6 +16,8 @@ public class Examples01Test {
 
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch();
+        
+        // Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 
         Page page = browser.newPage();
 

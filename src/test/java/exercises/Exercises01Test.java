@@ -34,7 +34,7 @@ public class Exercises01Test {
         // Check that the element with text 'Products' is visible
         // TODO: your code goes here
 
-        // Close the page, the browser and the Playwright session
+        // Close the browser and the Playwright session
         // TODO: your code goes here
     }
 }
