@@ -13,6 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <junit.version>5.9.2</junit.version>
         <playwright.version>1.38.0</playwright.version>
+        <playwright.accessibility.version>4.7.0</playwright.accessibility.version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,12 @@
             <groupId>com.microsoft.playwright</groupId>
             <artifactId>playwright</artifactId>
             <version>${playwright.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>playwright</artifactId>
+            <version>${playwright.accessibility.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
