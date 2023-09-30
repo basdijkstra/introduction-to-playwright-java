@@ -40,7 +40,7 @@ public class Answers02Test {
         new ProductsOverviewPage(page)
                 .selectProduct("Sauce Labs Backpack");
 
-        // After you completed the exercises, this assertion (and the test) should pass
+        // After you completed the exercises, this assertion (and therefore the test) should pass
         assertThat(
                 page.locator("xpath=//div[contains(@class,'inventory_details_name') and text()='Sauce Labs Backpack']"))
                 .isVisible();

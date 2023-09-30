@@ -36,7 +36,7 @@ public class Exercises02Test {
         //  in the page object class, create a method to select the product with the name 'Sauce Labs Backpack'
         //  and then call it here
 
-        // After you completed the exercises, this assertion (and the test) should pass
+        // After you completed the exercises, this assertion (and therefore the test) should pass
         assertThat(
                 page.locator("xpath=//div[contains(@class,'inventory_details_name') and text()='Sauce Labs Backpack']"))
                 .isVisible();
