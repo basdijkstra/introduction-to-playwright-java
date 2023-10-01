@@ -27,7 +27,7 @@ public class Exercises03Test {
     }
 
     @Test
-    public void aFirstPlaywrightTest() {
+    public void scanningForAccessibilityViolations() {
 
         Page page = browser.newPage();
 

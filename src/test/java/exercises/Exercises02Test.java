@@ -24,7 +24,7 @@ public class Exercises02Test {
     }
 
     @Test
-    public void aFirstPlaywrightTest() {
+    public void usingPageObjects() {
 
         Page page = browser.newPage();
 

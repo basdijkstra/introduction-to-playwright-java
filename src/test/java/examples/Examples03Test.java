@@ -26,7 +26,7 @@ public class Examples03Test {
     }
 
     @Test
-    public void usingPageObjects() {
+    public void scanningForAccessibilityViolations() {
 
         Page page = browser.newPage();
 

@@ -28,7 +28,7 @@ public class Answers03Test {
     }
 
     @Test
-    public void aFirstPlaywrightTest() {
+    public void scanningForAccessibilityViolations() {
 
         Page page = browser.newPage();
 
