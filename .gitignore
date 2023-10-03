@@ -64,3 +64,6 @@ fabric.properties
 
 # VSCode
 .vscode/
+
+# Playwright stuff
+playwright/
