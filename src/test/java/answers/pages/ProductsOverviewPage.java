@@ -8,9 +8,17 @@ public class ProductsOverviewPage {
 
     private final Page page;
 
+    private final String url = "https://www.saucedemo.com/inventory.html";
+
     public ProductsOverviewPage(Page page) {
 
         this.page = page;
+    }
+
+    public ProductsOverviewPage open() {
+
+        this.page.navigate(url);
+        return this;
     }
 
     // TODO: Create a new method to select a product. It should take a single String argument
