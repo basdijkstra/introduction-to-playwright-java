@@ -1,6 +1,7 @@
 package answers;
 
 import answers.pages.LoginPage;
+import answers.pages.ProductDetailsPage;
 import answers.pages.ProductsOverviewPage;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Page;
@@ -41,9 +42,10 @@ public class Answers02Test {
                 .selectProduct("Sauce Labs Backpack");
 
         // After you completed the exercises, this assertion (and therefore the test) should pass
-        assertThat(
-                page.locator("xpath=//div[contains(@class,'inventory_details_name') and text()='Sauce Labs Backpack']"))
-                .isVisible();
+        // TODO: can you further improve the code by writing a new Page Object class
+        //  with a method that returns whether or not the below locator is visible?
+        new ProductDetailsPage(page)
+                .verifyThatProductDetailsAreVisibleFor("Sauce Labs Backpack");
     }
 
     @AfterEach

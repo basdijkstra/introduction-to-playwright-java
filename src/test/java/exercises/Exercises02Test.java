@@ -37,6 +37,8 @@ public class Exercises02Test {
         //  and then call it here
 
         // After you completed the exercises, this assertion (and therefore the test) should pass
+        // TODO: can you further improve the code by writing a new Page Object class
+        //  with a method that returns whether or not the below locator is visible?
         assertThat(
                 page.locator("xpath=//div[contains(@class,'inventory_details_name') and text()='Sauce Labs Backpack']"))
                 .isVisible();
