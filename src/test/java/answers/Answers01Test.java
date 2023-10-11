@@ -26,7 +26,7 @@ public class Answers01Test {
         page.navigate("https://www.saucedemo.com/");
 
         // Login by:
-        // Typing 'standard_user' into the text field with placeholder 'Username'. Use the getByPlaceHolder() locator.
+        // Typing 'standard_user' into the text field with placeholder 'Username'. Use the getByPlaceholder() locator.
         // Typing 'secret_sauce' into the text field with placeholder 'Password'.
         // Clicking the button with name 'Login'. See the example for an idea on how to do this.
         page.getByPlaceholder("Username").fill("standard_user");

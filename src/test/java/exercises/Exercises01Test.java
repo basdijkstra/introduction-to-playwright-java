@@ -26,7 +26,7 @@ public class Exercises01Test {
         // TODO: your code goes here
 
         // Login by:
-        // Typing 'standard_user' into the text field with placeholder 'Username'. Use the getByPlaceHolder() locator.
+        // Typing 'standard_user' into the text field with placeholder 'Username'. Use the getByPlaceholder() locator.
         // Typing 'secret_sauce' into the text field with placeholder 'Password'.
         // Clicking the button with name 'Login'. See the example for an idea on how to do this.
         // TODO: your code goes here
