@@ -38,7 +38,7 @@ public class Exercises06Test {
         //  - one that should be replayed when the user clicks the link to go to the account details
         //  - one that returns a transaction for that account so that shows up in the account details page, too
         //  Find out what the responses should look like for yourself.
-        
+
 
         new AccountsOverviewPage(page)
                 .selectAccount("99999");
