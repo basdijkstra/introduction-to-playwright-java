@@ -15,7 +15,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 public class Examples06Test {
 
     @Test
-    public void aFirstPlaywrightTest() {
+    public void mockBackendApiResponse() {
 
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch();
